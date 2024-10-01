@@ -1,0 +1,12 @@
+Aquest és el contingut del directori: TestFolder
+ F - Captura.PNG, modificat el 2024-10-01T09:03:15.5346738Z
+ D - Exercise3, modificat el 2024-10-01T09:02:46.8582979Z
+Aquest és el contingut del directori: TestFolder\Exercise3
+ F - Captura.PNG, modificat el 2024-10-01T09:02:46.8652847Z
+ F - Text1.txt.txt, modificat el 2024-10-01T09:01:07.7309291Z
+ D - Exercise5, modificat el 2024-10-01T09:06:48.1800985Z
+Aquest és el contingut del directori: TestFolder\Exercise5
+ F - Captura.PNG, modificat el 2024-10-01T09:03:02.1786603Z
+ F - directories_contents.txt, modificat el 2024-10-01T09:06:48.1910692Z
+ F - Text4.txt.txt, modificat el 2024-10-01T09:05:05.7894013Z
+ F - Text3.txt, modificat el 2024-10-01T09:04:42.5442303Z
