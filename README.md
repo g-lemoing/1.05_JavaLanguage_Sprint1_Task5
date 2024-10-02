@@ -24,6 +24,24 @@ Compileu el projecte :
 Executeu el projecte:
 \1.05_JavaLanguage_Sprint1_Task5> java -cp src nivell1.exercise2.java.com.main.Main TestFolder
 
+Exercici 3
+
+Compileu el projecte :
+
+\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise3/java/com/main/Main.java
+\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise3/java/com/modules/ArbreArxius.java
+Executeu el projecte:
+\1.05_JavaLanguage_Sprint1_Task5> java -cp src nivell1.exercise3.java.com.main.Main TestFolder
+
+Exercici 4
+
+Compileu el projecte :
+
+\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise4/java/com/main/Main.java
+\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise4/java/com/modules/ArbreArxius.java
+Executeu el projecte:
+\1.05_JavaLanguage_Sprint1_Task5> java -cp src nivell1.exercise4.java.com.main.Main TestFolder
+
 ------------------------------------
 Tecnologies Utilitzades : IDE IntelliJ Idea v 2024.2.1, Java, SDK openjdk-22 Oracle OpenJDK 22.0.2
 Requisits: SDK openjdk-22 Oracle OpenJDK 22.0.2
