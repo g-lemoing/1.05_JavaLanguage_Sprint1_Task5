@@ -1,20 +1,26 @@
 package nivell1.exercise1.java.com.modules;
 
-import java.io.IOException;
-import java.nio.file.*;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Arrays;
 
 public class ArbreArxius {
 
-    public static void listFiles(String relDir) throws IOException, DirectoryIteratorException{
-        Path dir = Paths.get(relDir);
-        try(DirectoryStream<Path> stream = Files.newDirectoryStream(dir)){
-            System.out.println("El directori " + relDir + " conté els elements següents:");
-            for(Path file: stream){
-                System.out.println(file.getFileName());
+    public static void listFiles(String relDir) throws FileNotFoundException {
+        File dir = new File(relDir);
+        if(!dir.isDirectory()){
+            throw new FileNotFoundException("El directori no existeix.");
+        }
+        String[] files = dir.list();
+        if(files != null){
+            Arrays.sort(files);
+            for(String file : files){
+                System.out.println(file);
             }
         }
-        catch (IOException | DirectoryIteratorException ex){
-            System.err.println(ex.getMessage());
+        else{
+            System.out.println("El directori " + relDir + "està buit.");
         }
+
     }
 }

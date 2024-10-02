@@ -3,11 +3,10 @@ package nivell1.exercise1.java.com.main;
 import nivell1.exercise1.java.com.modules.ArbreArxius;
 
 import java.io.Console;
-import java.io.File;
-import java.io.IOException;
+import java.io.FileNotFoundException;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args){
         String dir = "";
         Console c = System.console();
         if (c == null){
@@ -22,6 +21,11 @@ public class Main {
             System.out.println("Ha d'entrar un nom de directori.");
             System.exit(1);
         }
-        ArbreArxius.listFiles(dir);
+
+        try{
+            ArbreArxius.listFiles(dir);
+        } catch (FileNotFoundException e) {
+            System.out.println(e.getMessage());
+        }
     }
 }
