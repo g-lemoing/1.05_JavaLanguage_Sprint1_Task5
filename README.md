@@ -5,13 +5,24 @@ Obrir la terminal de comandes, introduint "cmd" en el quadre de text de cerca de
 Anar fins el directori on heu clonat el projecte "C:\[YOUR_PATH]\1.05_JavaLanguage_Sprint1_Task5"
 
 NIVELL 1
+
 Exercici 1
-Compileu el projecte : 
+
+Compileu el projecte :
+
 \1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise1/java/com/main/Main.java
 \1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise1/java/com/modules/ArbreArxius.java
 Executeu el projecte:
 \1.05_JavaLanguage_Sprint1_Task5> java -cp src nivell1.exercise1.java.com.main.Main TestFolder/
 
+Exercici 2
+
+Compileu el projecte :
+
+\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise2/java/com/main/Main.java
+\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise2/java/com/modules/ArbreArxius.java
+Executeu el projecte:
+\1.05_JavaLanguage_Sprint1_Task5> java -cp src nivell1.exercise2.java.com.main.Main TestFolder
 
 ------------------------------------
 Tecnologies Utilitzades : IDE IntelliJ Idea v 2024.2.1, Java, SDK openjdk-22 Oracle OpenJDK 22.0.2
