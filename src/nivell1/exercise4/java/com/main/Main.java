@@ -4,25 +4,43 @@ import nivell1.exercise4.java.com.modules.ArbreArxius;
 
 import java.io.Console;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main (String[]args) throws IOException {
         final String OUTPUT_FILE = "TestFolder" + File.separator +
                 "Exercise4" + File.separator + "directories_contents.txt";
+        String dir = "";
+
         Console c = System.console();
         if (c == null){
             System.err.println("Console not available");
             System.exit(1);
         }
-        String dir = c.readLine("Indica el directori relatiu del qual vols llistar-ne el contingut,\nprem directament Intro per llistar el directori actual:\n");
+        if (args.length > 0){
+            dir = args[0];
+        }
+        else{
+            System.out.println("Ha d'entrar un nom de directori.");
+            System.exit(1);
+        }
+
         dir = dir.isEmpty()? "." + File.separator : dir;
-        ArbreArxius.listFiles(Paths.get(dir), new ArrayList<>(), OUTPUT_FILE);
-        System.out.println("El contingut del directori " + dir + " i dels seus subdirectoris "
-        + "s'ha desat al fitxer " + OUTPUT_FILE);
-        System.out.println("Ara llegirem del fitxer acabat de crear i mostrarem el seu contingut per consola:");
+        try{
+            if(ArbreArxius.checkDir(dir)){
+                List<String> contents;
+                contents = ArbreArxius.listFiles(new File(dir), new ArrayList<>(), 0);
+                ArbreArxius.writeToTextFile(OUTPUT_FILE, contents);
+                System.out.println("El contingut del directori " + dir + " i dels seus subdirectoris "
+                        + "s'ha desat al fitxer " + OUTPUT_FILE);
+            }
+        } catch (FileNotFoundException e) {
+            System.out.println(e.getMessage());
+        }
+        System.out.println("Ara llegirem del fitxer acabat de crear " + OUTPUT_FILE +" i mostrarem el seu contingut per consola:");
         ArbreArxius.readFromTextFile(OUTPUT_FILE);
     }
 }

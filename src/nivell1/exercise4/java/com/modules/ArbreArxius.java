@@ -1,40 +1,50 @@
 package nivell1.exercise4.java.com.modules;
 
 import java.io.*;
-import java.nio.file.DirectoryIteratorException;
-import java.nio.file.DirectoryStream;
-import java.nio.file.Files;
-import java.nio.file.Path;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class ArbreArxius {
+    public static boolean checkDir(String relDir) throws FileNotFoundException {
+        File dir = new File(relDir);
+        if(!dir.isDirectory()){
+            throw new FileNotFoundException("El directori no existeix.");
+        }
+        return true;
+    }
 
-    public static void listFiles(Path relDir, ArrayList<String> list, String outfile){
-
-        try(DirectoryStream<Path> stream = Files.newDirectoryStream(relDir)){
-            list.add("Aquest és el contingut del directori: " + relDir);
-            for(Path elem: stream){
-                if(Files.isDirectory(elem)){
-                    String line = " D - " +
-                          elem.getFileName() + ", modificat el " + Files.getLastModifiedTime(elem);
+    public static List<String> listFiles(File dir, ArrayList<String> list, int level){
+        File[] files = dir.listFiles();
+        if(files != null){
+            Arrays.sort(files);
+            for(File file: files){
+                if (file.isDirectory()){
+                    String line = buildLine(file.getName(), "D", getUpdateTime(file), level);
                     list.add(line);
-                    listFiles(elem, list, outfile);
+                    listFiles(file, list,level + 1);
                 }
-                else{
-                    String line = " F - " +
-                            elem.getFileName()+ ", modificat el " + Files.getLastModifiedTime(elem);
+                else {
+                    String line = buildLine(file.getName(), "F", getUpdateTime(file), level);
                     list.add(line);
                 }
             }
-            writeToTextFile(outfile, list);
         }
-        catch (IOException | DirectoryIteratorException ex){
-            System.err.println(ex.getMessage());
-        }
+        return list;
     }
 
-    public static void writeToTextFile(String outFile, ArrayList<String> list) throws IOException{
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter(outFile))){
+    public static String buildLine (String fileName, String type, String updateTime, int level){
+        return " ".repeat(level) + type + " - " + fileName + ", modificat el " + updateTime;
+    }
+
+    public static String getUpdateTime(File file){
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        return formatter.format(file.lastModified());
+    }
+
+    public static void writeToTextFile(String outfile, List<String> list) {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(outfile))){
             for(String line : list){
                 bw.write(line);
                 bw.newLine();
@@ -56,5 +66,4 @@ public class ArbreArxius {
             System.out.println(e.getMessage());
         }
     }
-
 }
