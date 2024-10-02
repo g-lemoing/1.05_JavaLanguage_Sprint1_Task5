@@ -42,6 +42,15 @@ Compileu el projecte :
 Executeu el projecte:
 \1.05_JavaLanguage_Sprint1_Task5> java -cp src nivell1.exercise4.java.com.main.Main TestFolder
 
+Exercici 5
+
+Compileu el projecte :
+
+\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise5/java/com/main/Main.java
+\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise5/java/com/modules/*.java
+Executeu el projecte:
+\1.05_JavaLanguage_Sprint1_Task5> java -cp src nivell1.exercise5.java.com.main.Main
+
 ------------------------------------
 Tecnologies Utilitzades : IDE IntelliJ Idea v 2024.2.1, Java, SDK openjdk-22 Oracle OpenJDK 22.0.2
 Requisits: SDK openjdk-22 Oracle OpenJDK 22.0.2
