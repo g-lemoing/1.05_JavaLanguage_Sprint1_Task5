@@ -1,0 +1,13 @@
+F - Captura.PNG, modificat el 2024-10-01 11:03:15
+F - Directories_contents.txt, modificat el 2024-10-01 11:12:00
+D - Exercise3, modificat el 2024-10-02 11:33:33
+ F - Captura.PNG, modificat el 2024-10-01 11:02:46
+ F - directories_contents.txt, modificat el 2024-10-02 13:03:25
+ F - Text1.txt, modificat el 2024-10-01 11:01:07
+D - Exercise4, modificat el 2024-10-01 11:19:07
+ F - directories_contents.txt, modificat el 2024-10-01 11:19:07
+D - Exercise5, modificat el 2024-10-02 11:33:49
+ F - Captura.PNG, modificat el 2024-10-01 11:03:02
+ F - directories_contents.txt, modificat el 2024-10-01 11:23:54
+ F - Text4.txt, modificat el 2024-10-01 11:05:05
+F - Text3.txt, modificat el 2024-10-01 11:04:42

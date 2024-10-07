@@ -1,0 +1,4 @@
+Aquest és el contingut del directori: Documents
+ D - SubCarpeta, modificat el 2024-09-30T10:40:25.0907707Z
+Aquest és el contingut del directori: Documents\SubCarpeta
+ F - TextFile.txt, modificat el 2024-09-30T09:33:21.2701541Z

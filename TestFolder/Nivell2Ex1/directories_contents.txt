@@ -1,0 +1,16 @@
+F - Captura.PNG, modificat el 2024-10-01 11:03:15
+F - Directories_contents.txt, modificat el 2024-10-01 11:12:00
+D - Exercise3, modificat el 2024-10-02 11:33:33
+ F - Captura.PNG, modificat el 2024-10-01 11:02:46
+ F - directories_contents.txt, modificat el 2024-10-02 13:06:47
+ F - Text1.txt, modificat el 2024-10-01 11:01:07
+D - Exercise4, modificat el 2024-10-01 11:19:07
+ F - directories_contents.txt, modificat el 2024-10-02 13:07:49
+D - Exercise5, modificat el 2024-10-02 13:24:38
+ F - Captura.PNG, modificat el 2024-10-01 11:03:02
+ F - customer.ser, modificat el 2024-10-02 13:24:38
+ F - directories_contents.txt, modificat el 2024-10-01 11:23:54
+ F - Text4.txt, modificat el 2024-10-01 11:05:05
+D - Nivell2Ex1, modificat el 2024-10-02 13:44:36
+ F - directories_contents.txt, modificat el 2024-10-02 13:44:36
+F - Text3.txt, modificat el 2024-10-01 11:04:42
