@@ -8,58 +8,67 @@ NIVELL 1
 
 Exercici 1
 
-Compileu el projecte :
+Compileu el projecte (opcional) :
 
-\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise1/java/com/main/Main.java
-\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise1/java/com/modules/ArbreArxius.java
+~\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise1/java/com/main/Main.java
+~\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise1/java/com/modules/ArbreArxius.java
 
 Executeu el projecte:
 
-\1.05_JavaLanguage_Sprint1_Task5> java -cp src nivell1.exercise1.java.com.main.Main TestFolder/
+~\1.05_JavaLanguage_Sprint1_Task5> java -cp src nivell1.exercise1.java.com.main.Main TestFolder
 
 Exercici 2
 
-Compileu el projecte :
+Compileu el projecte (opcional):
 
-\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise2/java/com/main/Main.java
-\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise2/java/com/modules/ArbreArxius.java
+~\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise2/java/com/main/Main.java
+~\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise2/java/com/modules/ArbreArxius.java
 
 Executeu el projecte:
 
-\1.05_JavaLanguage_Sprint1_Task5> java -cp src nivell1.exercise2.java.com.main.Main TestFolder
+~\1.05_JavaLanguage_Sprint1_Task5> java -cp src nivell1.exercise2.java.com.main.Main TestFolder
 
 Exercici 3
 
-Compileu el projecte :
+Compileu el projecte (opcional) :
 
-\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise3/java/com/main/Main.java
-\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise3/java/com/modules/ArbreArxius.java
+~\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise3/java/com/main/Main.java
+~\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise3/java/com/modules/ArbreArxius.java
 
 Executeu el projecte:
 
-\1.05_JavaLanguage_Sprint1_Task5> java -cp src nivell1.exercise3.java.com.main.Main TestFolder
+~\1.05_JavaLanguage_Sprint1_Task5> java -cp src nivell1.exercise3.java.com.main.Main TestFolder
 
 Exercici 4
 
-Compileu el projecte :
+Compileu el projecte (opcional) :
 
-\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise4/java/com/main/Main.java
-\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise4/java/com/modules/ArbreArxius.java
+~\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise4/java/com/main/Main.java
+~\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise4/java/com/modules/ArbreArxius.java
 
 Executeu el projecte:
 
-\1.05_JavaLanguage_Sprint1_Task5> java -cp src nivell1.exercise4.java.com.main.Main TestFolder
+~\1.05_JavaLanguage_Sprint1_Task5> java -cp src nivell1.exercise4.java.com.main.Main TestFolder
 
 Exercici 5
 
-Compileu el projecte :
+Compileu el projecte (opcional):
 
-\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise5/java/com/main/Main.java
-\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise5/java/com/modules/*.java
+~\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise5/java/com/main/Main.java
+~\1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise5/java/com/modules/*.java
 
 Executeu el projecte:
 
-\1.05_JavaLanguage_Sprint1_Task5> java -cp src nivell1.exercise5.java.com.main.Main
+~\1.05_JavaLanguage_Sprint1_Task5> java -cp src nivell1.exercise5.java.com.main.Main
+
+Nivell 2
+
+Exercici 1
+Aquest exercici fa el mateix que l'exercici 5 del primer nivell però recupera els paràmetres del directori a llegir, i de la ruta del fitxer resultant, des d'un fitxer de configuració "config.properties" ubicat en el directori recursos.
+
+Nivell 3
+
+El nivell3 no forma part del lliurament.
 
 ------------------------------------
 Tecnologies Utilitzades : IDE IntelliJ Idea v 2024.2.1, Java, SDK openjdk-22 Oracle OpenJDK 22.0.2
