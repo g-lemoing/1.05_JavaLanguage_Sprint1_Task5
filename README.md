@@ -12,7 +12,9 @@ Compileu el projecte :
 
 \1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise1/java/com/main/Main.java
 \1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise1/java/com/modules/ArbreArxius.java
+
 Executeu el projecte:
+
 \1.05_JavaLanguage_Sprint1_Task5> java -cp src nivell1.exercise1.java.com.main.Main TestFolder/
 
 Exercici 2
@@ -21,7 +23,9 @@ Compileu el projecte :
 
 \1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise2/java/com/main/Main.java
 \1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise2/java/com/modules/ArbreArxius.java
+
 Executeu el projecte:
+
 \1.05_JavaLanguage_Sprint1_Task5> java -cp src nivell1.exercise2.java.com.main.Main TestFolder
 
 Exercici 3
@@ -30,7 +34,9 @@ Compileu el projecte :
 
 \1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise3/java/com/main/Main.java
 \1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise3/java/com/modules/ArbreArxius.java
+
 Executeu el projecte:
+
 \1.05_JavaLanguage_Sprint1_Task5> java -cp src nivell1.exercise3.java.com.main.Main TestFolder
 
 Exercici 4
@@ -39,7 +45,9 @@ Compileu el projecte :
 
 \1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise4/java/com/main/Main.java
 \1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise4/java/com/modules/ArbreArxius.java
+
 Executeu el projecte:
+
 \1.05_JavaLanguage_Sprint1_Task5> java -cp src nivell1.exercise4.java.com.main.Main TestFolder
 
 Exercici 5
@@ -48,7 +56,9 @@ Compileu el projecte :
 
 \1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise5/java/com/main/Main.java
 \1.05_JavaLanguage_Sprint1_Task5> javac -sourcepath src src/nivell1/exercise5/java/com/modules/*.java
+
 Executeu el projecte:
+
 \1.05_JavaLanguage_Sprint1_Task5> java -cp src nivell1.exercise5.java.com.main.Main
 
 ------------------------------------
@@ -66,7 +76,7 @@ Ver las instrucciones de cada ejercicio más arriba
 Contribuciones:
 1. Crear un fork del repositorio: 
 2. Clonar el repositorio hacia el directorio local marcado por git bash
- git clone https://github.com/YOUR-USERNAME/1.01_JavaLanguage_Sprint1_Task1
+ git clone https://github.com/YOUR-USERNAME/1.05_JavaLanguage_Sprint1_Task5
 3. Crear una rama
 git branch BRANCH-NAME
 git checkout BRANCH-NAME
